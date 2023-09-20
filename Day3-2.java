@@ -6,9 +6,9 @@ class Solution {
         int answer = 0;
         // 1. 입력된 배열을 정렬한다.
         Arrays.sort(array);
-        // 2. 정렬된 배열 길이/2 한다.
+        // 2. 정렬된 배열 중간 번호를 찾는다.
         int centerNum = array.length/2;
-        // 3. 연산된 인덱스의 값을 리턴한다.
+        // 3. 배열의 중간 값을 리턴한다.
         answer = array[centerNum];
         return answer;
     }
