@@ -13,7 +13,7 @@ class Day12_1 {
     //                 || current_string.equals("o")
     //                 || current_string.equals("u")) { // 2-1. 같을 때, 해당 문자 제거
     //             System.out.println("문자제거합니다!");
-    //             answer = my_string.replace(current_string, "");
+    //             my_string = my_string.replace(current_string, "");
     //         }
     //         // 2-2. 다를 때, 지나간다.
     //     }
