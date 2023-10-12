@@ -42,8 +42,7 @@ public class Day20_4 {
 
     private Boolean isNumeric(String split) {
         return split != null && split.matches("\\d*"); // 문자열이 양수인지 판단
-        // return strValue != null && strValue.matches("[-+]?\\d*\\.?\\d+"); // 문자열이
-        // 양수or음수 소수점 아래자리 확인해 정수인지 판단
+        // return strValue != null && strValue.matches("[-+]?\\d*\\.?\\d+"); // 문자열이 양수or음수 소수점 아래자리 확인해 정수인지 판단
     }
 
     public static void main(String[] args) {
